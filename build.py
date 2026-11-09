@@ -12,7 +12,7 @@ def image(name, alt, prefix='', cls='', eager=False):
 def route_cover():
     return '''<div class="route-cover"><svg viewBox="0 0 600 380" aria-hidden="true"><path d="M50 350C100 290 40 180 150 150S310 220 350 100 490 30 580 70" fill="none" stroke="#d7b45b" stroke-width="1"/><path d="M80 300Q250 20 500 150" fill="none" stroke="white" stroke-width="1.5"/><g fill="#d7b45b"><circle cx="80" cy="300" r="7"/><circle cx="270" cy="145" r="7"/><circle cx="500" cy="150" r="7"/></g></svg><span>Concept development / CTIN 252</span><strong>Ibiza<br>Skylink</strong><span>Nightlife · Beaches · Airport</span></div>'''
 def card(p, i, prefix=''):
-    cover=image(p['cover'],p['coverAlt'],prefix, 'contain' if p['cover'].startswith(('yellow','blue','escape','parade')) else '') if p['cover'] else route_cover()
+    cover=image(p['cover'],p['coverAlt'],prefix, 'contain' if p['cover'].startswith(('yellow','blue','escape','parade','ibiza')) else '') if p['cover'] else route_cover()
     status=f'<span class="status">{e(p["status"])}</span>' if p.get('status') else ''
     return f'''<a class="project-card" href="{prefix}projects/{p['slug']}.html"><div class="card-image">{cover}<span class="card-index">{i:02}</span></div><div class="card-meta"><div><h3>{e(p['title'])}</h3><p>{e(p['type'])}</p></div>{status}</div><p class="card-description">{e(p['short'])}</p></a>'''
 def page(title, body, active='Home', prefix='', description='', filename='index.html'):
