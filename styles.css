@@ -11,3 +11,5 @@
 
 .ceramic-gallery:has(>figure:only-child){grid-template-columns:1fr;max-width:1000px}.ceramic-gallery:has(>figure:only-child) img{aspect-ratio:auto;max-height:700px}
 .project-card[href$="raceway-usa.html"] .card-image img,.detail-cover img[src$="raceway-usa-cover.webp"]{object-position:50% 65%}
+
+.experience img[src$="disney-portrait-original.jpeg"]{height:auto;max-height:none;object-fit:contain}
