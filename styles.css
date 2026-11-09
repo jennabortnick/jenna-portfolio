@@ -13,3 +13,11 @@
 .project-card[href$="raceway-usa.html"] .card-image img,.detail-cover img[src$="raceway-usa-cover.webp"]{object-position:50% 65%}
 
 .experience img[src$="disney-portrait-original.jpeg"]{height:auto;max-height:none;object-fit:contain}
+
+/* Make contact links clear before hover, including on touch screens. */
+.contact-item{padding:17px 20px;margin-bottom:12px;border:1px solid var(--blue);background:var(--wash);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.contact-item small{margin-bottom:5px;color:var(--blue)}
+.contact-action{display:block;font-size:15px;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.contact-detail{display:block;font-size:12px;margin-top:6px}
+.contact-item:hover,.contact-item:focus-visible{background:var(--blue);color:white;border-color:var(--blue)}
+.contact-item:hover small,.contact-item:focus-visible small{color:white}

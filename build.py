@@ -48,9 +48,9 @@ def build():
     ceramics=f'''<div class="container"><header class="page-head rise"><div class="eyebrow">Fine art & material exploration</div><h1>Made by hand.<br><em>Shaped in clay.</em></h1><p>Story-inspired sculptures, expressive characters, and functional pieces with a little imagination.</p></header>{ceramic_sections}</div>{closing()}'''
     page('Ceramics',ceramics,'Ceramics',filename='ceramics.html')
     links=''
-    if DATA['email']:links+=f'<a class="contact-item" href="mailto:{e(DATA["email"])}"><small>Email</small>{e(DATA["email"])}</a>'
-    if DATA['linkedin']:links+=f'<a class="contact-item" href="{e(DATA["linkedin"])}" target="_blank" rel="noopener noreferrer"><small>LinkedIn</small>Connect with Jenna</a>'
-    if DATA['resume']:links+=f'<a class="contact-item" href="{e(DATA["resume"])}" target="_blank" rel="noopener noreferrer"><small>Résumé</small>View résumé (PDF)</a>'
+    if DATA['email']:links+=f'<a class="contact-item" href="mailto:{e(DATA["email"])}"><small>Email</small><span class="contact-action">Email Jenna</span><span class="contact-detail">{e(DATA["email"])}</span></a>'
+    if DATA['linkedin']:links+=f'<a class="contact-item" href="{e(DATA["linkedin"])}" target="_blank" rel="noopener noreferrer"><small>LinkedIn</small><span class="contact-action">Open LinkedIn profile</span></a>'
+    if DATA['resume']:links+=f'<a class="contact-item" href="{e(DATA["resume"])}" target="_blank" rel="noopener noreferrer"><small>Résumé</small><span class="contact-action">View résumé (PDF)</span></a>'
     if not links:links='<p>Contact details will be added soon.</p><p class="contact-note">In the meantime, take a look around the portfolio to explore my work and creative interests.</p><div class="actions"><a class="text-link" href="projects.html">Explore my projects <span aria-hidden="true"></span></a></div>'
     contact=f'''<div class="container"><section class="contact-layout rise"><div><div class="eyebrow">Contact</div><h1>Let’s make<br>something<br><em>memorable.</em></h1><p>Have a project, an opportunity, or a shared interest in themed entertainment? This is where we can connect.</p></div><div class="contact-panel"><h2>Start a conversation.</h2>{links}<span class="mini-label">Jenna Bortnick / USC · Themed Entertainment</span></div></section></div>'''
     page('Contact',contact,'Contact',filename='contact.html')
