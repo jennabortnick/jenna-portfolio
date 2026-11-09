@@ -1,0 +1,75 @@
+{
+  "name": "Jenna Bortnick",
+  "discipline": "Themed Entertainment",
+  "school": "University of Southern California",
+  "graduation": "2029",
+  "email": "",
+  "linkedin": "",
+  "resume": "",
+  "projects": [
+    {
+      "slug": "raceway-usa", "title": "Raceway USA", "short": "A little course. A world of possibility.",
+      "category": "Themed entertainment", "type": "Mini golf design", "course": "Physical design & modelmaking", "cover": "mini-golf-layout", "coverAlt": "Digital model of a miniature-golf environment with colorful buildings",
+      "overview": "A themed miniature-golf design project explored through spatial layouts, scenic models, and hands-on making. The collection follows ideas from a digital environment into the workshop, where scale, materials, and construction become part of the design process.",
+      "focus": ["Spatial design", "Scenic modelmaking", "Fabrication"],
+      "role": "Project-specific responsibilities and final credits are being confirmed.",
+      "sections": [{"title":"From layout to physical form", "text":"Digital layouts and studio photographs document the relationship between the overall environment and its individual scenic elements.", "images":[["mini-golf-layout","Digital environment study"],["mini-golf-plan","Overhead layout study"],["model-structures","Scenic structures in progress"],["model-base","Physical base and construction details"],["scenic-model","Painted scenic model"],["workshop","Workshop process"],["making-model","Hands-on scenic modelmaking"],["studio","Models in the studio"]]}]
+    },
+    {
+      "slug":"as-the-trees-grow", "title":"As the Trees Grow", "subtitle":"A Fairy Tale Parade", "short":"Seven stories. One enchanted forest.",
+      "category":"Themed entertainment", "type":"Parade concept", "course":"CTIN 455 · Designing with Specialists for Themed Entertainment", "cover":"parade-1", "coverAlt":"As the Trees Grow: A Fairy Tale Parade presentation cover with a forest illustration",
+      "overview":"A collaborative parade concept inspired by Grimm’s fairy tales. Seven story-inspired floats bring together performance, music, costumes, and puppetry around a shared theme: venturing into the unknown to gain self-determination.",
+      "focus":["Parade design", "Storytelling", "Interdisciplinary concepts"],
+      "role":"Collaborative USC coursework. Individual contributions and complete team credits will be added once confirmed.",
+      "sections":[{"title":"Enter the forest", "text":"The concept moves through The Pied Piper, Rumpelstiltskin, Little Red Riding Hood, Rapunzel, the Town Musicians of Bremen, Hansel and Gretel, and The Twelve Dancing Princesses. Scenic and performance references help establish a common woodland world.", "images":[["parade-1","Presentation cover"],["parade-6","The seven story-inspired floats"],["parade-8","Selected parade concept material"],["parade-14","Selected scenic concept material"],["parade-20","Selected parade design material"],["parade-26","Selected parade concept material"],["parade-34","Selected design references from the team presentation"],["parade-41","Selected story and scenic development"],["parade-47","Selected story and scenic development"]]}]
+    },
+    {
+      "slug":"yellow-submarine", "title":"Yellow Submarine", "subtitle":"Bar & Lounge", "short":"An escape beneath the surface.",
+      "category":"Themed entertainment", "type":"Immersive hospitality", "course":"CTIN 252 · Themed Concept Development Pitches", "cover":"yellow-1", "coverAlt":"Yellow Submarine Bar and Lounge illustrated presentation cover",
+      "overview":"An immersive, psychedelic cocktail-bar concept inspired by The Beatles’ Yellow Submarine. The experience invites adult guests to leave the everyday behind and enter an underwater world shaped by music, color, and a sequence of imaginative spaces.",
+      "focus":["Concept development", "Guest experience", "Music-inspired design"],
+      "role":"Developed by Silvia Schohn, Jenna Bortnick, and Zoe Reynolds. Original concept by Connor Nanus and Nayeli Castillo. Jenna’s individual responsibilities are being confirmed.",
+      "sections":[{"title":"Sail to sea", "text":"A space walkthrough, musical references, and a themed menu connect the bar’s physical setting to its larger story. These are selected pages from the collaborative concept pitch.", "images":[["yellow-1","Project cover and team credits"],["yellow-3","The high concept"],["yellow-6","Selected space walkthrough material"],["yellow-7","Themed spaces and musical references"],["yellow-8","Selected concept presentation material"],["yellow-9","Themed menu development"],["yellow-10","Selected menu and visual development"],["yellow-11","Selected visual development"],["yellow-12","Selected visual development"]]}]
+    },
+    {
+      "slug":"ibiza-skylink", "title":"Ibiza Skylink", "short":"A new perspective on getting there.",
+      "category":"Themed entertainment", "type":"Transportation concept", "course":"CTIN 252 · Themed Concept Development Pitches", "cover":"", "coverAlt":"",
+      "overview":"A suspended-train concept connecting Ibiza’s nightlife, beaches, and airport. Developed as a themed entertainment pitch, the idea considers transportation as part of an interconnected visitor experience.",
+      "focus":["Concept development", "Visitor experience", "Transportation"],
+      "role":"Project artwork, team credits, and individual responsibilities are still being gathered.",
+      "sections":[{"title":"Connecting the experience", "text":"This project is included in Jenna’s selected coursework. The original presentation and project imagery will be added when available.", "images":[]}]
+    },
+    {
+      "slug":"blue-horizon", "title":"Blue Horizon", "short":"An adventure beyond the porthole.",
+      "category":"Themed entertainment", "type":"Escape-room experience", "course":"CTIN 452 · Themed Entertainment Design Final", "cover":"blue-1", "coverAlt":"Blue Horizon title in turquoise and gold on a deep blue background",
+      "overview":"A steampunk submarine adventure conceived as an interactive escape-room experience aboard a cruise ship. A crew of four to eight guests journeys through a fantasy world of treasure, puzzles, and a kraken encounter, with the experience developed through story, guest flow, spatial planning, and show elements.",
+      "focus":["Experience design", "Floorplan development", "Guest flow"],
+      "role":"Jenna is credited for the floorplan design. Collaborative project by Jenna Bortnick, Christy Li, Sam Ruttenberg, and Ryan Rosendahl; other individual responsibilities are being confirmed.",
+      "sections":[{"title":"Story meets spatial design", "text":"The floorplan organizes the experience into parallel paths through engine rooms, navigation decks, captain’s quarters, and a finale. Selected presentation pages show the connection between narrative beats and the guest journey.", "images":[["blue-3","High concept"],["blue-14","Story progression"],["blue-15","Guest flow"],["blue-16","Floorplan · Designer: Jenna Bortnick"],["blue-26","Engine-room puzzle development · Team presentation"],["blue-36","Project branding · Team presentation"]]}]
+    },
+    {
+      "slug":"traveling-escape-room", "title":"Traveling Escape Room", "short":"Taking the experience on the road.",
+      "category":"Themed entertainment", "type":"Business & feasibility", "course":"CTIN 457 · Business of Themed Entertainment Final", "cover":"escape-1", "coverAlt":"Traveling Escape Room Feasibility presentation cover",
+      "overview":"A collaborative feasibility study for a traveling escape-room experience operating in major cities. The project considers what it takes to move a themed attraction from an idea into a workable business, connecting the visitor experience with operations, logistics, and financial assumptions.",
+      "focus":["Feasibility analysis", "Operations", "Business planning"],
+      "role":"Group project by Jenna, Amandine, Charlie, Silvia, and Kalia. Individual responsibilities are being confirmed. Financial material represents an academic model, not actual operating results.",
+      "sections":[{"title":"Behind the experience", "text":"The study examines city selection, space and capacity, staffing, transportation, intellectual-property considerations, capital costs, and sensitivity testing. The selected slides document the team’s planning approach.", "images":[["escape-1","Presentation cover and team credits"],["escape-2","Business design"],["escape-4","Experience layout and capacity assumptions"],["escape-5","Location planning"],["escape-7","Academic capital-cost model"],["escape-17","Risk analysis"],["escape-19","Sensitivity-testing methodology"],["escape-23","Academic model: simulation results"]]}]
+    },
+    {
+      "slug":"80s-arcade", "title":"80s Arcade", "short":"A world built in neon.",
+      "category":"3D modeling", "type":"Blender final project", "course":"Digital environments", "cover":"arcade-wide", "coverAlt":"A neon-lit 1980s arcade modeled in Blender",
+      "overview":"A digital arcade environment built in Blender, filled with glowing cabinets, playful details, and saturated color. Modeling, materials, lighting, and composition work together to create the atmosphere of a nostalgic space.",
+      "focus":["Blender", "Environment modeling", "Materials & lighting"],
+      "role":"Jenna’s Blender portfolio work.",
+      "sections":[{"title":"Details that build a world", "text":"Arcade cabinets, pinball machines, a claw machine, and graphic lighting create a layered environment. Explore the full scene and its individual details below.", "images":[["arcade-wide","The complete arcade environment"],["arcade-cabinets","Modeled arcade cabinets"],["arcade-pacman","Cabinets and wall details"],["arcade-wall","Wall graphics and lighting"],["arcade-claw","Claw-machine detail"],["arcade-pinball","Pinball and neon signage"]]}]
+    },
+    {
+      "slug":"outlaw-city", "title":"Outlaw City", "short":"Building the next little world.",
+      "category":"3D modeling", "type":"Blender · Mini golf", "course":"Work in progress", "cover":"golf-study-two", "coverAlt":"A miniature-golf obstacle modeled in Blender", "status":"In progress",
+      "overview":"A miniature-golf environment in development in Blender. The project is part of Jenna’s ongoing exploration of themed spaces and digital modelmaking.",
+      "focus":["Blender", "Mini golf", "Environment development"],
+      "role":"Work in progress. The supplied modeling studies are shown as process material; final project selections and captions are still to be confirmed.",
+      "sections":[{"title":"Modeling studies", "text":"Early modeling studies explore individual obstacles and scenic elements. This collection will evolve as the project develops.", "images":[["golf-study-one","Mini-golf modeling study"],["golf-study-two","Obstacle modeling study"],["environment-study","Architectural modeling study"]]}]
+    }
+  ]
+}
