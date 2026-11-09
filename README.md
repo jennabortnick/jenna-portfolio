@@ -56,7 +56,7 @@ Add a public email, LinkedIn URL, or resume path in `content/site.json` when rea
 
 - Jenna’s individual contributions and full team credits for the collaborative projects. Blue Horizon’s floorplan explicitly credits Jenna; the remaining responsibilities are not invented.
 - Original Ibiza Skylink presentation and imagery. Its current title graphic was created for this site and is not presented as project artwork.
-- Which supplied modelmaking and Blender studies belong to Raceway USA and Outlaw City. Current selections are provisional and identified as process studies.
+- Raceway USA includes the horse sculpture; digital environment/course layouts belong to Outlaw City, as confirmed by Jenna.
 - Public contact information and resume.
 - Academic feasibility figures represent coursework, not actual business results.
 
@@ -65,3 +65,7 @@ The supplied MOV video was reviewed but omitted because its project association 
 ## Verification
 
 The link checker checks all generated HTML pages for existing local link/image targets, image alt attributes, titles, viewports, and one primary heading. Browser checks covered desktop/mobile layouts, the mobile menu, project filters, and the enlarged image dialog.
+
+## Asset notes
+
+Ceramics imagery and descriptions were imported from Jenna’s existing portfolio at https://portfolio-xeurons.format.com/ with the user’s instruction. Costume imagery was excluded from the Ceramics page. Seven collections contain twelve images. Names on five presentation slides were removed for display; collaborative credits remain in the project copy/captions. The homepage uses the supplied portrait of Jenna.
