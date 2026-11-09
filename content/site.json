@@ -195,20 +195,108 @@
       "category": "Themed entertainment",
       "type": "Transportation concept",
       "course": "CTIN 252 · Themed Concept Development Pitches",
-      "cover": "",
-      "coverAlt": "",
-      "overview": "A suspended-train concept connecting Ibiza’s nightlife, beaches, and airport. Developed as a themed entertainment pitch, the idea considers transportation as part of an interconnected visitor experience.",
+      "cover": "ibiza-19",
+      "coverAlt": "Ibiza Skylink suspended-train concept above an illuminated nightlife destination",
+      "overview": "A suspended-train concept connecting Ibiza’s nightlife, beaches, and airport, with a journey as vibrant as the destination. The collaborative pitch explores how an attraction could address visitor transportation while becoming part of the island experience, from daytime coastal views to colorful nighttime journeys.",
       "focus": [
         "Concept development",
-        "Visitor experience",
-        "Transportation"
+        "Themed transportation",
+        "Route planning",
+        "Guest experience"
       ],
-      "role": "Project artwork, team credits, and individual responsibilities are still being gathered.",
+      "role": "Developed by Silvia Schohn, Jenna Bortnick, and Jasmine Wan. Original concept by Silvia Schohn and Sammy Hillery. Jenna’s individual responsibilities are being confirmed.",
       "sections": [
         {
-          "title": "Connecting the experience",
-          "text": "This project is included in Jenna’s selected coursework. The original presentation and project imagery will be added when available.",
-          "images": []
+          "title": "Connecting day and night",
+          "text": "The presentation maps daytime attractions, nightlife destinations, the airport, and existing road connections to frame the transportation challenge. These maps document research for the course concept.",
+          "images": [
+            [
+              "ibiza-3",
+              "Ibiza by day and night · Destination research"
+            ],
+            [
+              "ibiza-5",
+              "Attraction and airport map · Team presentation"
+            ],
+            [
+              "ibiza-6",
+              "Existing road connections · Problem framing"
+            ]
+          ]
+        },
+        {
+          "title": "A journey worth taking",
+          "text": "The proposal treats transportation as an attraction in its own right. Suspended-rail precedents and colorful vehicle references inform possibilities for the guest experience.",
+          "images": [
+            [
+              "ibiza-9",
+              "The high concept"
+            ],
+            [
+              "ibiza-10",
+              "Suspended-rail precedents · Chiba and Wuppertal"
+            ],
+            [
+              "ibiza-11",
+              "Theming references · Colorful vehicle exteriors"
+            ],
+            [
+              "ibiza-12",
+              "Theming references · Hospitality and themed vehicles"
+            ]
+          ]
+        },
+        {
+          "title": "Along the route",
+          "text": "Concept visuals explore suspended trains in coastal and nightlife settings. Destination photographs and interior references establish the atmosphere of the proposed experience.",
+          "images": [
+            [
+              "ibiza-14",
+              "Coastal suspended-train concept visual"
+            ],
+            [
+              "ibiza-16",
+              "Old-town suspended-train concept visual"
+            ],
+            [
+              "ibiza-19",
+              "Nightlife suspended-train concept visual"
+            ],
+            [
+              "ibiza-13",
+              "Beach-club atmosphere reference"
+            ],
+            [
+              "ibiza-15",
+              "Old-town dining atmosphere reference"
+            ],
+            [
+              "ibiza-17",
+              "Vehicle-interior atmosphere reference"
+            ],
+            [
+              "ibiza-18",
+              "Nightlife atmosphere reference"
+            ],
+            [
+              "ibiza-20",
+              "Coastal sunset atmosphere reference"
+            ]
+          ]
+        },
+        {
+          "title": "Room to grow",
+          "text": "The academic proposal considers taking visitors off the roads, managing crowds, and making travel more accessible. VIP cars and local pop-ups extend the concept. Fares and operating benefits shown in the slides are proposal assumptions, not a live transport service.",
+          "images": [
+            [
+              "ibiza-21",
+              "Proposed benefits and fare assumptions · Coursework"
+            ],
+            [
+              "ibiza-22",
+              "Expansion concepts · VIP cars and local pop-ups"
+            ]
+          ]
         }
       ]
     },

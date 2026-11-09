@@ -55,7 +55,7 @@ Add a public email, LinkedIn URL, or resume path in `content/site.json` when rea
 ## Content to confirm before public launch
 
 - Jenna’s individual contributions and full team credits for the collaborative projects. Blue Horizon’s floorplan explicitly credits Jenna; the remaining responsibilities are not invented.
-- Original Ibiza Skylink presentation and imagery. Its current title graphic was created for this site and is not presented as project artwork.
+- Ibiza Skylink now includes maps, concept visuals, precedents, and atmosphere references from the supplied presentation. The name-bearing cover slide is omitted; project credits appear in the page text.
 - Raceway USA includes the horse sculpture; digital environment/course layouts belong to Outlaw City, as confirmed by Jenna.
 - Résumé when available.
 - Academic feasibility figures represent coursework, not actual business results.
