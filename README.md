@@ -1,4 +1,4 @@
-# Jenna Bortnick — Creative Portfolio
+# Jenna Bortnick: Creative Portfolio
 
 A responsive, static portfolio for GitHub Pages. White, blue, and gold styling follows Jenna’s shared design reference, using supplied portraits, project imagery, and selected presentation pages.
 
