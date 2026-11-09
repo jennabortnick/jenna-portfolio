@@ -14,12 +14,28 @@ python3 -m http.server 8000 --directory dist
 
 Open http://localhost:8000. You can also open `dist/index.html` directly. The generated site contains ordinary HTML, CSS, JavaScript, and images.
 
+## Current live deployment
+
+- Website: https://dbortnick.github.io/jenna-portfolio/
+- Repository: https://github.com/DBortnick/jenna-portfolio
+- Source code: `main` branch; published files: `gh-pages` branch.
+
+GitHub Pages currently uses **Deploy from a branch → gh-pages → / (root)**. The account’s billing lock blocked custom Actions, so the prebuilt static files use GitHub’s Pages publishing service instead. The optional custom workflow is manual only.
+
+After editing, commit and push your source changes to `main`, then publish with:
+
+```sh
+python3 tools/publish.py
+```
+
+This builds and checks the site, then updates only the `gh-pages` branch. It requires Git and authenticated push access. When transferring the repository to Jenna, update the local `origin` remote to the new repository URL and check Pages settings; the website address may change.
+
 ## Publish on Jenna’s GitHub account
 
 1. Create a repository in Jenna’s account. Use `JENNAS-USERNAME.github.io` for an account homepage, or any repository name for a project site.
 2. Upload this folder’s contents, including the hidden `.github` folder, to the repository’s `main` branch. Using Git or GitHub Desktop is the easiest way to preserve that folder.
 3. In the repository’s **Settings → Pages → Build and deployment**, choose **GitHub Actions** as the source.
-4. Open **Actions → Deploy portfolio to GitHub Pages** and run the workflow if it has not already started. Each later push to `main` rebuilds and deploys the site.
+4. Open **Actions → Deploy portfolio to GitHub Pages** and run the workflow if it has not already started. The optional workflow is manually triggered; enable its push trigger if automatic deployment is desired.
 
 The included workflow builds `dist`, validates local links, and deploys it. Relative links support both account and repository sites. See [GitHub’s custom workflow guide](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
