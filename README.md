@@ -16,8 +16,8 @@ Open http://localhost:8000. You can also open `dist/index.html` directly. The ge
 
 ## Current live deployment
 
-- Website: https://dbortnick.github.io/jenna-portfolio/
-- Repository: https://github.com/DBortnick/jenna-portfolio
+- Website: https://jennabortnick.github.io/jenna-portfolio/
+- Repository: https://github.com/jennabortnick/jenna-portfolio
 - Source code: `main` branch; published files: `gh-pages` branch.
 
 GitHub Pages currently uses **Deploy from a branch → gh-pages → / (root)**. The account’s billing lock blocked custom Actions, so the prebuilt static files use GitHub’s Pages publishing service instead. The optional custom workflow is manual only.
@@ -28,7 +28,7 @@ After editing, commit and push your source changes to `main`, then publish with:
 python3 tools/publish.py
 ```
 
-This builds and checks the site, then updates only the `gh-pages` branch. It requires Git and authenticated push access. When transferring the repository to Jenna, update the local `origin` remote to the new repository URL and check Pages settings; the website address may change.
+This builds and checks the site, then updates only the `gh-pages` branch. It requires Git and authenticated push access. The repository now belongs to Jenna. The local `origin` remote points to her repository, and GitHub Pages serves the address above.
 
 ## Publish on Jenna’s GitHub account
 
