@@ -10,3 +10,4 @@
 @media(max-width:720px){.hero-portrait{width:min(100%,420px);margin:0 auto}.hero-portrait .hero-main{aspect-ratio:4/5}.hero-portrait::before{right:-12px}}
 
 .ceramic-gallery:has(>figure:only-child){grid-template-columns:1fr;max-width:1000px}.ceramic-gallery:has(>figure:only-child) img{aspect-ratio:auto;max-height:700px}
+.project-card[href$="raceway-usa.html"] .card-image img,.detail-cover img[src$="raceway-usa-cover.webp"]{object-position:50% 65%}
