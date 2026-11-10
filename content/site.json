@@ -10,23 +10,23 @@
     {
       "slug": "raceway-usa",
       "title": "Raceway USA",
-      "short": "A little course. A world of possibility.",
+      "short": "A road-trip mini golf adventure built through hands-on construction and scenic painting.",
       "category": "Themed entertainment",
-      "type": "Mini golf design",
-      "course": "Physical design & modelmaking",
+      "type": "Mini golf construction",
+      "course": "CTIN-295 · Project Crew",
       "cover": "raceway-usa-cover",
       "coverAlt": "Raceway USA scenic course in the workshop, with miniature buildings, a Ferris wheel, and Las Vegas scenery",
-      "overview": "A themed miniature-golf design project explored through scenic models and hands-on making. The collection follows the construction of individual scenic elements, including a horse sculpture, as scale, materials, and fabrication become part of the design process.",
+      "overview": "Raceway USA is a road-trip-themed, nine-hole mini golf course built around playful elements of sabotage at every hole. As part of CTIN-295 Project Crew, I worked on the construction and painting side of the project, helping bring two themed holes—Aspen and New Orleans—from the design team's direction into physical environments.",
       "focus": [
-        "Spatial design",
-        "Scenic modelmaking",
-        "Fabrication"
+        "Scenic construction",
+        "Scenic painting",
+        "Hands-on fabrication"
       ],
-      "role": "Project-specific responsibilities and final credits are being confirmed.",
+      "role": "I worked with a team of four on two holes. For Aspen, I helped construct the platform. For New Orleans, I built and painted the shotgun houses and created a ceramic horse statue. The design team provided direction on what needed to be made, while giving me creative freedom in figuring out how to make it. My construction work primarily used wood, saws, nail guns, screws, wood glue, and other building materials.",
       "sections": [
         {
-          "title": "Bringing the course to life",
-          "text": "Studio photographs document the construction of scenic structures, miniature environments, and the horse sculpture for Raceway USA.",
+          "title": "Building two road-trip destinations",
+          "text": "Working with three other teammates, I contributed to the physical build of the Aspen and New Orleans holes. My work on Aspen focused on constructing its platform. For New Orleans, I created and painted the shotgun houses and made a ceramic horse statue, adding handmade scenic details to the themed environment.",
           "images": [
             [
               "model-structures",
@@ -61,6 +61,14 @@
               "Raceway USA · Horse sculpture, side view"
             ]
           ]
+        },
+        {
+          "title": "From design direction to the physical build",
+          "text": "The design team identified what each hole needed, then gave our construction team creative freedom in deciding how to make it. I worked primarily with wood and standard shop tools and materials, including saws, nail guns, screws, and wood glue, to translate those ideas into physical pieces."
+        },
+        {
+          "title": "Lessons carried into the next course",
+          "text": "Raceway USA showed me how important communication and teamwork are to creating a cohesive visual style across a course. It also reinforced that scenic ideas have to work as mini golf: the mechanics of the golf ball matter, and obstacles and surfaces need to support how the game is actually played. These lessons informed the way our team approached the later Outlaw City project."
         }
       ]
     },
