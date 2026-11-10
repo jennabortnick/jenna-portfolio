@@ -49,7 +49,54 @@ def build():
     projects=f'''<div class="container"><header class="page-head rise"><div class="eyebrow">Selected coursework & creative practice</div><h1>Projects &amp;<br><em>creative work.</em></h1><p>A collection of immersive concepts, themed environments, digital models, and creative explorations.</p><div class="filters" aria-label="Filter projects"><button class="filter" data-filter="all" aria-pressed="true">All projects <span aria-hidden="true">/ 08</span></button><button class="filter" data-filter="themed" aria-pressed="false">Themed entertainment <span aria-hidden="true">/ 06</span></button><button class="filter" data-filter="3d" aria-pressed="false">3D &amp; Blender <span aria-hidden="true">/ 02</span></button></div><p id="filter-status" class="sr-only">Showing all 8 projects.</p></header><section class="project-section" data-category="themed"><div class="project-section-head"><span>01 /</span><h2>Themed Entertainment Design</h2></div><div class="project-grid">{''.join(card(p,i+1) for i,p in enumerate(PROJECTS[:6]))}</div></section><section class="project-section" data-category="3d"><div class="project-section-head"><span>02 /</span><h2>3D Modeling &amp; Blender</h2></div><div class="project-grid">{''.join(card(p,i+7) for i,p in enumerate(PROJECTS[6:]))}</div></section><section class="ceramics-callout">{image('ceramics-1','Rapunzel-inspired ceramic tower by Jenna')}<div class="eyebrow">A different kind of making</div><h2>Working in clay.</h2><p>Sculptural forms, material exploration, and the creative possibilities of making by hand.</p><div class="actions"><a class="text-link" href="ceramics.html">Explore ceramics </a></div></div></section></div>'''
     page('Projects & creative work',projects,'Projects',filename='projects.html')
     about_resume = f'<a class="text-link" href="{e(DATA["resume"])}" target="_blank" rel="noopener noreferrer">View résumé (PDF)</a>' if DATA['resume'] else ''
-    about=f'''<div class="container"><section class="about-hero rise"><div><div class="eyebrow">About Jenna</div><h1>Hi, I’m Jenna.</h1><p>I’m a sophomore studying Themed Entertainment at the University of Southern California, graduating in 2029.</p><p>My portfolio brings together concept pitches, parade design, physical modelmaking, ceramics, and digital environments built in Blender. Across these projects, I explore how stories take shape through spaces, objects, and shared experiences.</p><div class="bio-details"><div><h2>Education</h2><p>University of Southern California<br>Themed Entertainment Program<br>Class of 2029</p></div><div><h2>Experience</h2><p>Disney College Program<br>Attractions</p></div><div class="wide"><h2>Creative practice</h2><div class="skill-list"><span>Concept development</span><span>Spatial storytelling</span><span>Modelmaking</span><span>Blender</span><span>Ceramics</span></div></div></div><div class="actions">{about_resume}<a class="button" href="projects.html">See what I’m making </a></div></div></div></section><section class="experience"><div class="container experience-inner">{image('jenna-london','Jenna outside the Tower of London')}<div><div class="eyebrow">Experience</div><h2>Disney College Program</h2><p>Attractions</p><p>Alongside my USC coursework and creative projects, my background includes the Disney College Program in attractions.</p><div class="actions"><a class="text-link" href="contact.html">Connect with Jenna </a></div></div></div></section></div>'''
+    about=f'''<div class="container">
+<section class="about-hero rise">
+  <div>
+    <div class="eyebrow">About Jenna</div>
+    <h1>Hi, I’m Jenna.</h1>
+    <p>I’m a Themed Entertainment student at the University of Southern California, pursuing a minor in Architecture and graduating in 2029.</p>
+    <p>I’m interested in the space between imagination and reality: how creative ideas become thoughtfully designed places and experiences. My work brings together storytelling, spatial design, modelmaking, and the practical thinking that helps an idea work in the real world.</p>
+    <div class="bio-details">
+      <div><h2>Education</h2><p>University of Southern California<br>Themed Entertainment<br>Architecture minor<br>Class of 2029</p></div>
+      <div><h2>Creative practice</h2><p>Concept development<br>Spatial storytelling<br>Digital and physical modeling</p></div>
+    </div>
+    <div class="actions"><a class="text-link" href="assets/jenna-bortnick-resume.pdf" target="_blank" rel="noopener noreferrer">View résumé (PDF)</a><a class="button" href="projects.html">Explore my projects </a></div>
+  </div>
+  <figure><img src="assets/images/jenna-portrait.webp" alt="Portrait of Jenna" class="portrait" loading="eager" decoding="async"><figcaption>Creative ideas, brought into the real world.</figcaption></figure>
+</section>
+<section class="process">
+  <div class="eyebrow">How I think & create</div>
+  <h2>Imagination, with a plan.</h2>
+  <p>I approach design with both a creative and analytical mindset. I like starting with rough sketches, then developing ideas through detailed layouts and 3D models. I’m drawn to the details that make a space feel convincing, from scale, proportions, and sightlines to textures, circulation, and how everything fits together.</p>
+  <p>I always think about the experience from more than one perspective: what guests notice and how they move through a space, as well as how that space can be built, operated, and brought to life. I want people to feel like they are a character in the world they have stepped into.</p>
+</section>
+<section class="experience">
+  <img src="assets/images/disney-portrait-original.jpeg" alt="Jenna during her Disney College Program attractions role" loading="lazy" decoding="async">
+  <div>
+    <div class="eyebrow">Experience that shaped my perspective</div>
+    <h2>Disney College Program</h2>
+    <p><strong>Attractions Cast Member · Walt Disney World</strong></p>
+    <p>During a three-month summer internship with the Disney College Program, I worked in attractions at The Twilight Zone Tower of Terror and as an amphitheater attendant for Fantasmic! At Tower of Terror, I welcomed guests, answered questions, helped nervous visitors feel comfortable, checked safety restraints, dispatched the attraction, and monitored operations from the control desk.</p>
+    <p>The experience gave me a guest-facing and operational perspective on immersive entertainment. I loved seeing the excitement of first-time visitors, learning how the attraction worked behind the scenes, and noticing how the atmosphere and the people working in a space all contribute to the experience.</p>
+  </div>
+</section>
+<div class="container">
+  <div class="gallery" aria-label="Disney College Program photos">
+    <figure><img src="assets/images/disney-team.webp" alt="Jenna with her Disney College Program team" loading="lazy" decoding="async"><figcaption>The people behind the experience.</figcaption></figure>
+  </div>
+</div>
+<section class="process">
+  <div class="eyebrow">Beyond the blueprint</div>
+  <h2>Stories beyond the studio.</h2>
+  <p>Outside of my academic and creative work, I’m an avid fan of movies, television, video games, and books. I love getting lost in imaginative stories and exploring the worlds built around them.</p>
+</section>
+<section class="process">
+  <div class="eyebrow">What I’m working toward</div>
+  <h2>From the first idea to the finished experience.</h2>
+  <p>I’m interested in opportunities that bring creative vision and practical execution together, especially themed entertainment, immersive environments, modelmaking, and project management. I enjoy developing digital and physical models, thinking through how a design can function, and coordinating the details that help a larger project come together.</p>
+  <p>My goal is to help create places that capture people’s imaginations, invite exploration, and make them feel part of another world—while making sure the idea can work beyond the page or screen.</p>
+</section>
+</div>'''
     page('About',about,'About',filename='about.html')
     ceramic_work=json.loads((ROOT/'content/ceramics.json').read_text())
     ceramic_sections=''.join(f'<section class="process"><div class="eyebrow">Ceramics</div><h2>{e(work["title"])}</h2><p>{e(work["description"])}</p>{gallery(work["images"],extra="ceramic-gallery")}</section>' for work in ceramic_work)
