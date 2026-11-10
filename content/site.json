@@ -458,24 +458,27 @@
     {
       "slug": "outlaw-city",
       "title": "Outlaw City",
-      "short": "Building the next little world.",
-      "category": "3D modeling",
-      "type": "Blender · Mini golf",
-      "course": "Work in progress",
+      "short": "A nine-hole outlaw adventure, designed as an immersive mini golf experience.",
+      "category": "Themed entertainment",
+      "type": "Mini golf design",
+      "course": "CTIN-395: Mini Golf Design · Collaborative design & build project",
       "cover": "mini-golf-layout",
       "coverAlt": "Outlaw City digital environment layout in Blender",
       "status": "In progress",
-      "overview": "A themed miniature-golf environment in development in Blender. Course layouts and individual obstacle studies explore the relationship between the overall setting, scenic architecture, and the path through the experience.",
+      "overview": "Outlaw City reimagines traditional mini golf as an immersive, story-driven adventure. Players are invited to try out for Pecos Bill’s outlaw gang, proving themselves through a series of nine trials. Developed collaboratively by our cohort, the project brings together storytelling, gameplay, spatial design, digital modeling, and plans for hands-on construction.",
       "focus": [
-        "Blender",
-        "Mini golf",
-        "Environment development"
+        "Immersive experience design",
+        "Course layout & site planning",
+        "Gameplay development",
+        "3D modeling",
+        "Team coordination",
+        "Physical construction"
       ],
-      "role": "Jenna’s Blender portfolio work. Work in progress.",
+      "role": "Working collaboratively with my cohort, I contribute to gameplay development, course layout, 3D modeling, and planning for the physical build. My primary focus is the overall course footprint and spatial arrangement, as well as the placement of the nine holes and individual hole models in Blender. I also lead meetings, track progress, and coordinate communication between the art and gameplay teams so everyone understands current decisions, responsibilities, and how the work fits together.",
       "sections": [
         {
-          "title": "Planning the course",
-          "text": "Digital environment layouts and an overhead plan establish the course’s scenic arrangement and circulation.",
+          "title": "From mini golf to an immersive adventure",
+          "text": "The concept begins with a question: how can mini golf become more than nine separate holes? In Outlaw City, players are invited to try out for Pecos Bill’s outlaw gang. Each hole becomes a trial on the path to proving yourself as an outlaw, connecting the gameplay to a larger story and themed world.",
           "images": [
             [
               "mini-golf-layout",
@@ -488,8 +491,22 @@
           ]
         },
         {
-          "title": "Modeling studies",
-          "text": "Early modeling studies explore individual obstacles and scenic elements. This collection will evolve as the project develops.",
+          "title": "Designing for the SCI Lawn",
+          "text": "The course is being developed for the SCI Lawn, a designated site with existing conditions that shape the design. Slopes, trees, and perimeter lights all influence the available footprint and the placement of the nine holes. Our team is using a site plan, measured dimensions, and a 3D scan of the lawn to understand the space and make informed layout decisions. My focus is bringing the course together as a cohesive plan while considering circulation, gameplay, and buildability.",
+          "images": [
+            [
+              "mini-golf-plan",
+              "Overhead course layout"
+            ],
+            [
+              "mini-golf-layout",
+              "Course layout developed in Blender"
+            ]
+          ]
+        },
+        {
+          "title": "Developing holes, gameplay & models",
+          "text": "We are brainstorming individual hole concepts, sketching layouts, developing gameplay mechanics, and building digital models. I use Blender to work on both the placement of the holes across the site and the individual hole models. Our team also uses Rhino, sharing software-specific responsibilities according to each person's experience. As the designs develop, we are evaluating how the digital models can translate into physical construction.",
           "images": [
             [
               "golf-study-one",
@@ -501,9 +518,14 @@
             ],
             [
               "environment-study",
-              "Architectural modeling study"
+              "Scenic and architectural modeling study"
             ]
           ]
+        },
+        {
+          "title": "Collaboration, coordination & the build ahead",
+          "text": "Alongside my design work, I lead meetings, track progress, and coordinate between the art and gameplay teams to keep communication clear and everyone informed. The project has reinforced how much time creative and construction tasks can take, and how important realistic planning and consistent communication are to keeping a collaborative project moving. The course is still in development; the next phase will bring the designs into hands-on construction, where I plan to contribute primarily to the build and, hopefully, additional coordination.",
+          "images": []
         }
       ]
     }
